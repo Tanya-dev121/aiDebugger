@@ -21,7 +21,7 @@ function App() {
     setResult("");
 
     try {
-      const response = await axios.post("http://localhost:5000/api/debug", {
+      const response = await axios.post("https://aidebugger-3.onrender.com/api/debug", {
         code,
         language,
       });
